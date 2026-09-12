@@ -1,15 +1,15 @@
-# Porridge Builder Pattern Assignment
+# Porridge Builder Pattern 
 
-Console application demonstrating the **Builder** creational design pattern in Java (JDK 17) for Astana IT University Software Design Patterns course[cite: 1].
+A simple Java project demonstrating the **Builder** design pattern for the Software Design Patterns course at Astana IT University.
 
-## Domain
-A custom Porridge configuration system. It utilizes a static nested Builder class with a Fluent API to step-by-step assemble a bowl of porridge with optional ingredients (grains, liquids, butter, fruits, and nuts/seeds).
+## What is this project?
+It uses a customizable porridge (`Porridge`) example to show how to step-by-step assemble complex objects using a *Fluent API*. You can choose the grain, liquid, and easily add butter, fruits, and nuts.
 
-## How to Run
+## How to run?
 1. Open the project in **IntelliJ IDEA**.
-2. Ensure Project SDK is set to **Java 17**.
-3. Run the `Main.java` file located in `src/main/java/software/assignment_sdp/Main.java`.
+2. Make sure you are using **Java 17**[cite: 1].
+3. Run the `Main.java` file (click the green Play button next to the `main` method).
 
-## Project Structure
-- `Porridge.java`: The complex product class containing a static nested `Builder` class.
-- `Main.java`: Client application demonstrating fluent API method chaining.
+## Structure
+- `Porridge.java` — the product class containing the nested `Builder` class.
+- `Main.java` — the demo class showing how it prints the result to the console.
