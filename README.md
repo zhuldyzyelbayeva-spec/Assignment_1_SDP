@@ -7,7 +7,7 @@ It uses a customizable porridge (`Porridge`) example to show how to step-by-step
 
 ## How to run?
 1. Open the project in **IntelliJ IDEA**.
-2. Make sure you are using **Java 17**[cite: 1].
+2. Make sure you are using **Java 17**.
 3. Run the `Main.java` file (click the green Play button next to the `main` method).
 
 ## Structure
